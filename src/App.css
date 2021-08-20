@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+ .fb, .google{
+   font-size:large;
+   margin:20px;
+   padding:10px;
+   border-radius:10px;
+   background-color:#8396c9;
+   cursor: pointer;
+ }
+
+ .App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:40px;
+ }
+.outer{
+  height:600px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  background-color: rgb(85, 209, 247)
+}
+.inner{
+  height:500px;
+  width: 600px;
+  border: 5px solid black;
+  border-radius:30px;
+}
+.boy, .girl{
+  height:100px;
+  width:100px;
+  border: 5px solid black;
+  border-radius:10px;
+  margin: 40px;
+  
+}
+.gender{
+  display: flex;
+  flex-direction: row;
+
+}
+.boy{
+  background-color:darkcyan;
+  cursor:pointer;
+}
+.girl{
+  background-color:rgb(214, 58, 84);
+  cursor:pointer;
+}
